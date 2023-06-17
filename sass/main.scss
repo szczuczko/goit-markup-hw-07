@@ -1,0 +1,14 @@
+@use "./utils/colors" as *;
+@use "./utils/vars" as *;
+@import "./components/page-header";
+@import "./components/logo";
+
+body {
+  font-family: $fontFamily;
+  color: $almostBlack;
+  background-color: $white;
+}
+
+.container {
+  max-width: $containerWidth;
+}

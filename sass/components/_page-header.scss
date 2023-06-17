@@ -1,0 +1,13 @@
+@use "./utils/colors" as *;
+@use "./utils/vars" as *;
+
+// .page-header {
+  max-width: $pageWidth;
+  margin: 0 auto;
+  border-bottom: 1px solid $borderHeader;
+
+  &__page-links {
+    color: $black;
+    list-style: none;
+  }
+}
