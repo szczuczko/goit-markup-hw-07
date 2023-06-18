@@ -4,6 +4,10 @@
   display: flex;
   border-bottom: 1px solid $borderHeader;
 
+  &__container {
+    display: flex;
+  }
+
   &__navigation {
     display: flex;
     align-items: center;

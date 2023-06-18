@@ -6,13 +6,3 @@
 @import "./components/modal";
 @import "./components/footer";
 @import "./components/resets";
-
-body {
-  font-family: $fontFamily;
-  background-color: $white;
-}
-
-.container {
-  display: flex;
-  max-width: $containerWidth;
-}
