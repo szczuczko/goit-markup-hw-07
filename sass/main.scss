@@ -1,9 +1,11 @@
 @use "./utils/colors" as *;
 @use "./utils/vars" as *;
+@import "./components/golbal-styles";
 @import "./components/page-header";
 @import "./components/logo";
 @import "./components/modal";
 @import "./components/footer";
+@import "./components/resets";
 
 body {
   font-family: $fontFamily;

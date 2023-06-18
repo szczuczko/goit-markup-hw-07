@@ -1,8 +1,7 @@
 .page-header {
   max-width: $pageWidth;
+  height: 80px;
   display: flex;
-  justify-content: center;
-  margin: 0 auto;
   border-bottom: 1px solid $borderHeader;
 
   &__navigation {
@@ -19,8 +18,6 @@
     font-size: 14px;
     line-height: 1.1428em;
     letter-spacing: 0.02em;
-    margin: 0;
-    padding: 0;
   }
 
   &__contact-links {
@@ -32,8 +29,7 @@
     line-height: 1.1428em;
     list-style: none;
     letter-spacing: 0.02em;
-    padding: 0;
-    margin-left: 345px;
+    margin-left: auto;
   }
 }
 
@@ -55,7 +51,7 @@
     &--current::after {
       content: "";
       position: absolute;
-      inset: 38px 0 auto;
+      inset: 44px 0 auto;
       height: 4px;
       border-radius: 4px;
       background-color: $blue;
