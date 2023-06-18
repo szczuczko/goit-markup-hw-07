@@ -1,0 +1,295 @@
+.h1 {
+  max-height: 600px;
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/backgrund_img.jpg), url(../images/backgrund_img_overlay.jpg);
+  background-size: cover;
+}
+
+h1:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.button {
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875em;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button:hover {
+  text-decoration: underline solid var(--button-blue);
+}
+
+/* Pierwsza sekcja */
+.first-section {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+  background-color: var(--almost-white);
+}
+
+.first-section-logo-list {
+  max-width: 1200px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.first-section-logo {
+  width: 270px;
+  height: 120px;
+  background: var(--light-gray);
+  border-radius: 4px;
+}
+
+.first-section-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  text-align: justify;
+  padding: 0;
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 1.7142em;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  width: 270px;
+}
+
+.h4 {
+  color: var(--almost-black);
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428em;
+  text-transform: uppercase;
+}
+
+.h4:hover,
+.list p:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+/* Druga sekcja */
+.second-section {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  padding: 94px 0 94px 0;
+  background-color: var(--almost-white);
+}
+
+.h2-second-section {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666em;
+  letter-spacing: 0.03em;
+}
+
+.h2-second-section:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.second-section-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 30px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  display: block;
+}
+
+.image-container .label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 70px;
+  text-align: center;
+}
+
+/* Trzecia sekcja */
+.third-section {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  padding: 94px 0 94px 0;
+  background-color: var(--light-gray);
+}
+
+.h2-third-section {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666em;
+  letter-spacing: 0.03em;
+  color: var(--almost-black);
+}
+
+.h2-third-section:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.third-section-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 30px;
+}
+
+.third-section-list li {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.third-section-list h3 {
+  text-align: center;
+  margin: 30px 0 10px 0;
+  font-weight: 500;
+  color: var(--almost-black);
+}
+
+.third-section-list p {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.1875em;
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
+
+.third-section-list h3:hover,
+.third-section-list p:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.sm-links {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle:hover {
+  background-color: var(--blue);
+}
+
+.sm-icon {
+  fill: var(--border-clients);
+}
+
+.circle:hover .sm-icon {
+  fill: var(--white);
+}
+
+/* Czwarta sekcja 8*/
+
+.four-section {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  padding: 94px 0 94px 0;
+  background-color: var(--almost-white);
+}
+
+.h2-four-section {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666em;
+  letter-spacing: 0.03em;
+  color: var(--almost-black);
+}
+
+.h2-four-section:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.four-section-logo-list {
+  max-width: 1200px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.four-section-logo {
+  width: 170px;
+  height: 92px;
+  background: var(--light-gray);
+  fill: var(--border-clients);
+  border: 1px solid var(--border-clients);
+  border-radius: 4px;
+}
+
+.four-section-logo:hover {
+  fill: var(--blue);
+}
+
+/* Stopka indeks i porfolio */
+footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 60px 0 60px 0;
+  background-color: var(--dark-gray);
+}

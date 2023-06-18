@@ -10,6 +10,7 @@ $buttonBlue: #0000ff;
 $borderHeader: #ececec;
 $borderClients: #afb1b8;
 $borderPfLi: #eeeeee;
+$footerLinks: rgba(255, 255, 255, 0.6);
 $smFooterBackground: rgba(255, 255, 255, 0.1);
 
 :root {
@@ -25,5 +26,6 @@ $smFooterBackground: rgba(255, 255, 255, 0.1);
   --border-header: #ececec;
   --border-clients: #afb1b8;
   --border-pf-li: #eeeeee;
+  --footer-links: rgba(255, 255, 255, 0.6);
   --sm-footer-background: rgba(255, 255, 255, 0.1);
 }

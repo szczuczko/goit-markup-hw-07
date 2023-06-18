@@ -1,8 +1,10 @@
 @use "./utils/colors" as *;
 @use "./utils/vars" as *;
+@import "./components/resets";
 @import "./components/golbal-styles";
 @import "./components/page-header";
 @import "./components/logo";
+@import "./components/page-main";
 @import "./components/modal";
 @import "./components/footer";
-@import "./components/resets";
+@import "./components/page-portfolio";

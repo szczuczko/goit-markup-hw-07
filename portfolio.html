@@ -29,18 +29,18 @@
 
           <!--Menu nawigacyjne-->
 
-          <menu  class="page-header__page-links-list">
-              <li class="page-links-list__page-link page-link">
-                <a
-                  class="page-link__link"
-                  href="./index.html"
-                  >Agencja</a
-                >
-              </li>
-              <li class="page-links-list__page-link page-link">
-                <a class="page-link__link page-link__link--current" href="./portfolio.html">Portfolio</a>
-              </li class="page-links-list__page-link page-link">
-              <li><a class="page-link__link" href="#">Kontakt</a></li>
+          <menu class="page-header__page-links-list">
+            <li class="page-links-list__page-link page-link">
+              <a class="page-link__link" href="./index.html">Agencja</a>
+            </li>
+            <li class="page-links-list__page-link page-link">
+              <a
+                class="page-link__link page-link__link--current"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li><a class="page-link__link" href="#">Kontakt</a></li>
           </menu>
         </nav>
 
@@ -66,7 +66,9 @@
             </a>
           </li>
           <li>
-            <a class="contact-link__phone" href="tel:+48111111111">+48 111 111 111</a>
+            <a class="contact-link__phone" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
           </li>
         </ul>
       </div>
@@ -272,21 +274,21 @@
     </main>
 
     <!--Stopka-->
-    <footer>
-      <div class="footer container">
+    <footer class="page-footer">
+      <div class="page-footer__container container">
         <!--Lewa część-->
         <div>
-          <div class="footer-logo">
-            <a class="logo-footer" href="./index.html"
-              ><span class="logo-blue-footer">Web</span>Studio</a
+          <div class="page-footer__home-link">
+            <a class="home-link home-link--footer" href="./index.html"
+              ><span class="home-link__blue">Web</span>Studio</a
             >
           </div>
 
           <!--Adres i linki w stopce-->
-          <ul class="contact-footer">
+          <ul class="page-footer__footer-contacts footer-contacts">
             <li>
               <a
-                class="address-link"
+                class="footer-contacts__address"
                 href="https://goo.gl/maps/Dz4RchG2dV1VJyud7"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -294,26 +296,32 @@
               >
             </li>
             <li>
-              <a class="mail-footer" href="mailto:info@devstudio.com"
+              <a class="footer-contacts__mail" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="tel-footer" href="tel:+48111111111">+48 111 111 111</a>
+              <a class="footer-contacts__phone" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
             </li>
           </ul>
         </div>
         <!--Środkowa część-->
-        <div class="h5-footer">
+        <div class="page-footer__sm-links sm-links">
           <h5>DOŁĄCZ DO NAS</h5>
-          <div class="sm-links-footer">
+          <div class="sm-links__list">
             <a
               href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <div class="circle-footer">
-                <svg class="sm-icon-footer" width="20px" height="20px">
+              <div class="sm-links__circle-footer">
+                <svg
+                  class="sm-links__sm-icon-footer"
+                  width="20px"
+                  height="20px"
+                >
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </div>
@@ -323,8 +331,12 @@
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <div class="circle-footer">
-                <svg class="sm-icon-footer" width="20px" height="20px">
+              <div class="sm-links__circle-footer">
+                <svg
+                  class="sm-links__sm-icon-footer"
+                  width="20px"
+                  height="20px"
+                >
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </div>
@@ -334,8 +346,12 @@
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <div class="circle-footer">
-                <svg class="sm-icon-footer" width="20px" height="20px">
+              <div class="sm-links__circle-footer">
+                <svg
+                  class="sm-links__sm-icon-footer"
+                  width="20px"
+                  height="20px"
+                >
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </div>
@@ -345,8 +361,12 @@
               target="_blank"
               rel="noopener noreferrer nofollow"
             >
-              <div class="circle-footer">
-                <svg class="sm-icon-footer" width="20px" height="20px">
+              <div class="sm-links__circle-footer">
+                <svg
+                  class="sm-links__sm-icon-footer"
+                  width="20px"
+                  height="20px"
+                >
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </div>
@@ -354,11 +374,11 @@
           </div>
         </div>
         <!--Prawa strona-->
-        <div class="singup-form">
+        <div class="page-footer__singup-form singup-form">
           <p>ZAPISZ SIĘ DO NEWSLETERA</p>
           <form action="#" name="singup_form">
             <input
-              class="singup-input"
+              class="singup-form__singup-input"
               type="email"
               name="email"
               placeholder="E-mail"
