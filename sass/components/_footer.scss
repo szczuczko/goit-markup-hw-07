@@ -1,0 +1,179 @@
+footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 60px 0 60px 0;
+  background-color: var(--dark-gray);
+}
+
+.footer {
+  display: flex;
+  margin: 0 auto;
+  gap: 70px;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923em;
+  text-decoration: none;
+  color: var(--white);
+  letter-spacing: 0.03em;
+}
+
+.logo-blue-footer {
+  font-family: "Oleo Script", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.1923em;
+  color: var(--blue);
+  letter-spacing: 0.03em;
+}
+
+.logo-footer:hover,
+.logo-blue-footer:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.address-link {
+  font-size: 14px;
+  line-height: 1.7142em;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.contact-footer {
+  padding: 0;
+  line-height: 1.7142em;
+  list-style: none;
+  letter-spacing: 0.03em;
+}
+
+.contact-footer li {
+  margin-top: 9px;
+}
+
+.mail-footer {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.tel-footer {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.mail-footer:hover,
+.tel-footer:hover,
+.address-link:hover,
+.h5-footer h5:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.h5-footer h5 {
+  color: var(--white);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 12px 0 20px 0;
+}
+
+.sm-links-footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.circle-footer {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.circle-footer:hover {
+  background-color: var(--blue);
+}
+
+.sm-icon-footer {
+  fill: var(--border-clients);
+}
+
+.circle-footer:hover .sm-icon-footer {
+  fill: var(--white);
+}
+
+.singup-form {
+  color: var(--white);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.singup-form p {
+  padding: 12px 0 20px 0;
+}
+
+.singup-form p:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.singup-input {
+  box-sizing: border-box;
+  color: var(--white);
+  width: 358px;
+  height: 50px;
+  background: var(--dark-gray);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding-left: 15px;
+  margin-right: 8px;
+}
+
+.singup-input:hover {
+  border: 1px solid var(--blue);
+}
+
+.singup-form button {
+  width: 200px;
+  height: 50px;
+  background-color: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--blue);
+  border-radius: 4px;
+  color: var(--white);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875em;
+  letter-spacing: 0.06em;
+  text-align: left;
+  padding-left: 42px;
+}
+
+.icon-send {
+  position: absolute;
+  transform: translate(-50px, 15px);
+  width: 24px;
+  height: 24px;
+  fill: var(--white);
+}

@@ -1,13 +1,104 @@
-@use "./utils/colors" as *;
-@use "./utils/vars" as *;
-
-// .page-header {
+.page-header {
   max-width: $pageWidth;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   border-bottom: 1px solid $borderHeader;
 
-  &__page-links {
-    color: $black;
+  &__navigation {
+    display: flex;
+    align-items: center;
+    gap: 93px;
+  }
+
+  &__page-links-list {
     list-style: none;
+    display: inherit;
+    gap: 46px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428em;
+    letter-spacing: 0.02em;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__contact-links {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428em;
+    list-style: none;
+    letter-spacing: 0.02em;
+    padding: 0;
+    margin-left: 345px;
+  }
+}
+
+.page-link {
+  &__link {
+    text-decoration: none;
+    color: $black;
+
+    &:hover,
+    :focus {
+      text-decoration: underline solid $blue;
+    }
+
+    &--current {
+      color: $blue;
+      position: relative;
+    }
+
+    &--current::after {
+      content: "";
+      position: absolute;
+      inset: 38px 0 auto;
+      height: 4px;
+      border-radius: 4px;
+      background-color: $blue;
+    }
+  }
+}
+
+.contact-link {
+  &__icon-mail {
+    width: 20px;
+    height: 16px;
+    margin-right: 10px;
+    fill: $blue;
+  }
+
+  &__icon-phone {
+    width: 20px;
+    height: 32px;
+    margin-right: 10px;
+    fill: $gray;
+  }
+
+  &__icon-mail:hover {
+    fill: $buttonBlue;
+  }
+
+  &__icon-phone:hover {
+    fill: $blue;
+  }
+
+  &__mail {
+    color: $blue;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+
+  &__phone {
+    color: $gray;
+    text-decoration: none;
+  }
+
+  &__mail:hover,
+  &__phone:hover {
+    text-decoration: underline solid $blue;
   }
 }

@@ -1,13 +1,10 @@
-@use "./utils/colors" as *;
-@use "./utils/vars" as *;
-
 .home-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1923em;
   text-decoration: none;
-  color: var(--black);
+  color: $black;
   letter-spacing: 0.03em;
 
   &__blue {
@@ -15,7 +12,12 @@
     font-weight: 400;
     font-size: 26px;
     line-height: 1.1923em;
-    color: var(--blue);
+    color: $blue;
     letter-spacing: 0.03em;
+  }
+
+  &:hover,
+  :focus {
+    text-decoration: underline solid $blue;
   }
 }

@@ -2,13 +2,15 @@
 @use "./utils/vars" as *;
 @import "./components/page-header";
 @import "./components/logo";
+@import "./components/modal";
+@import "./components/footer";
 
 body {
   font-family: $fontFamily;
-  color: $almostBlack;
   background-color: $white;
 }
 
 .container {
+  display: flex;
   max-width: $containerWidth;
 }
