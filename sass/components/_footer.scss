@@ -15,30 +15,6 @@ footer {
   margin-bottom: 20px;
 }
 
-.logo-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923em;
-  text-decoration: none;
-  color: var(--white);
-  letter-spacing: 0.03em;
-}
-
-.logo-blue-footer {
-  font-family: "Oleo Script", sans-serif;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 1.1923em;
-  color: var(--blue);
-  letter-spacing: 0.03em;
-}
-
-.logo-footer:hover,
-.logo-blue-footer:hover {
-  text-decoration: underline solid var(--blue);
-}
-
 .address-link {
   font-size: 14px;
   line-height: 1.7142em;
@@ -84,7 +60,7 @@ footer {
   line-height: 1.1428em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 0;
+  margin: auto;
   padding: 12px 0 20px 0;
 }
 
@@ -125,7 +101,7 @@ footer {
   line-height: 1.1428em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 0;
+  margin-left: auto;
 }
 
 .singup-form p {

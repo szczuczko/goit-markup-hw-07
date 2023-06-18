@@ -7,6 +7,10 @@
   color: $black;
   letter-spacing: 0.03em;
 
+  &--footer {
+    color: $white;
+  }
+
   &__blue {
     font-family: "Oleo Script", sans-serif;
     font-weight: 400;
