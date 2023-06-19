@@ -1,5 +1,4 @@
 .page-footer {
-  max-width: $pageWidth;
   margin: 0 auto;
   padding: 60px 0 60px 0;
   background-color: var(--dark-gray);
@@ -142,5 +141,9 @@
     width: 24px;
     height: 24px;
     fill: var(--white);
+  }
+  button:hover,
+  .icon-send:hover {
+    cursor: pointer;
   }
 }
