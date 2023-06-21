@@ -77,7 +77,7 @@
     <!--Główna zawartość strony-->
     <main>
       <!--Nagówek skcji głównej-->
-      <section class="h1">
+      <section class="main-head">
         <div class="container">
           <h1>
             EFEKTYWNE ROZWIĄZANIA<br />
@@ -87,8 +87,8 @@
             Zamów usługę
           </button>
           <div class="modal is-hidden" data-modal>
-            <div class="modal-content">
-              <button class="modal-close-button" data-modal-close>
+            <div class="modal__modal-content">
+              <button class="modal__close-button" data-modal-close>
                 <svg class="close-icon">
                   <use href="./images/icons.svg#icon-close-black"></use>
                 </svg>
@@ -100,28 +100,28 @@
                 name="modal-form"
                 autocomplete="on"
               >
-                <label class="modal-name">
+                <label class="modal__name">
                   Imie
                   <input type="text" name="formname" id="name" required />
                   <svg class="icon-mod-name">
                     <use href="./images/icons.svg#icon-mod-name"></use>
                   </svg>
                 </label>
-                <label class="modal-phone">
+                <label class="modal__phone">
                   Telefon
                   <input type="tel" name="phone" id="phone" required />
                   <svg class="icon-mod-phone">
                     <use href="./images/icons.svg#icon-mod-phone"></use>
                   </svg>
                 </label>
-                <label class="modal-email">
+                <label class="modal__email">
                   Email
                   <input type="email" name="email" id="email" required />
                   <svg class="icon-mod-mail">
                     <use href="./images/icons.svg#icon-mod-mail"></use>
                   </svg>
                 </label>
-                <label class="modal-text">
+                <label class="modal__text">
                   Komentarz
                   <textarea
                     name="text"
@@ -130,7 +130,7 @@
                     placeholder="Wsporwadź tekst"
                   ></textarea>
                 </label>
-                <div class="modal-privacy">
+                <div class="modal__privacy">
                   <input
                     type="checkbox"
                     name="prevacy"
@@ -138,12 +138,12 @@
                     id="privacy"
                     required
                   />
-                  <label for="privacy"
+                  <label
                     >Oświadczakm, iż akceptuję <a href="#">Regulamin</a> i
                     <a href="#">Politykę Prywatności</a> .</label
                   >
                 </div>
-                <div class="modal-submit-button">
+                <div class="modal__submit-button">
                   <button type="submit">Wyślij</button>
                 </div>
               </form>
