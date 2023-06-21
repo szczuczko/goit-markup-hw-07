@@ -35,10 +35,10 @@
   border: 0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
 
-.button:hover {
-  text-decoration: underline solid var(--button-blue);
+  &:hover {
+    text-decoration: underline solid var(--button-blue);
+  }
 }
 
 /* Pierwsza sekcja */
@@ -94,11 +94,11 @@
   font-size: 14px;
   line-height: 1.1428em;
   text-transform: uppercase;
-}
 
-.h4:hover,
-.list p:hover {
-  text-decoration: underline solid var(--blue);
+  &:hover,
+  .list p:hover {
+    text-decoration: underline solid var(--blue);
+  }
 }
 
 /* Druga sekcja */
@@ -117,10 +117,10 @@
   font-size: 36px;
   line-height: 1.1666em;
   letter-spacing: 0.03em;
-}
 
-.h2-second-section:hover {
-  text-decoration: underline solid var(--blue);
+  &:hover {
+    text-decoration: underline solid var(--blue);
+  }
 }
 
 .second-section-list {
@@ -171,10 +171,10 @@
   line-height: 1.1666em;
   letter-spacing: 0.03em;
   color: var(--almost-black);
-}
 
-.h2-third-section:hover {
-  text-decoration: underline solid var(--blue);
+  &:hover {
+    text-decoration: underline solid var(--blue);
+  }
 }
 
 .third-section-list {
@@ -226,10 +226,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
 
-.circle:hover {
-  background-color: var(--blue);
+  &:hover {
+    background-color: var(--blue);
+  }
 }
 
 .sm-icon {
@@ -241,7 +241,6 @@
 }
 
 /* Czwarta sekcja 8*/
-
 .four-section {
   max-width: 1600px;
   display: flex;
@@ -258,10 +257,10 @@
   line-height: 1.1666em;
   letter-spacing: 0.03em;
   color: var(--almost-black);
-}
 
-.h2-four-section:hover {
-  text-decoration: underline solid var(--blue);
+  &:hover {
+    text-decoration: underline solid var(--blue);
+  }
 }
 
 .four-section-logo-list {
@@ -282,16 +281,8 @@
   fill: var(--border-clients);
   border: 1px solid var(--border-clients);
   border-radius: 4px;
-}
 
-.four-section-logo:hover {
-  fill: var(--blue);
-}
-
-/* Stopka indeks i porfolio */
-footer {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 60px 0 60px 0;
-  background-color: var(--dark-gray);
+  &:hover {
+    fill: var(--blue);
+  }
 }
