@@ -1,73 +1,3 @@
-/* Portfolio Menu */
-.pf-menu {
-  max-width: 1600px;
-  display: flex;
-  justify-content: center;
-  background-color: $almost-white;
-
-  &-button-menu {
-    list-style: none;
-    text-align: center;
-    cursor: pointer;
-    gap: 8px;
-    padding: 94px 0 50px 0;
-  }
-
-  &-button-blue {
-    background-color: $blue;
-    color: $white;
-    width: 121px;
-    height: 38px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.625em;
-    text-align: center;
-    letter-spacing: 0.03em;
-    border: 0;
-    border-radius: 4px;
-  }
-
-  &-button {
-    background-color: $light-gray;
-    color: $almost-black;
-    font-weight: 500;
-    height: 38px;
-    font-size: 16px;
-    line-height: 1.625em;
-    text-align: center;
-    letter-spacing: 0.03em;
-    border: 0;
-    border-radius: 4px;
-  }
-
-  &-button-blue:hover,
-  &-button:hover {
-    box-shadow: $pfButtonShadow;
-  }
-
-  &-button-blue:focus,
-  &-button:focus {
-    box-shadow: $pfButtonShadow;
-  }
-
-  &-button-1 {
-    width: 93px;
-  }
-
-  &-button-2 {
-    width: 114px;
-  }
-
-  &-button-3 {
-    width: 91px;
-  }
-
-  &-button-4 {
-    width: 121px;
-  }
-}
-
-/* Portfolio sekcja główna */
 .pf-section {
   max-width: 1600px;
   display: flex;
@@ -75,7 +5,6 @@
   background-color: $almost-white;
 
   &-item {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
@@ -119,7 +48,7 @@
   }
 }
 
-/* Wyjeżdżający opis na img */
+// Wyjeżdżający opis na img
 .pf-img-discription {
   position: relative;
 

@@ -12,11 +12,11 @@ body {
   font-family: $fontFamily;
   color: $almostBlack;
   background-color: $white;
-  width: $pageWidth;
+  max-width: $pageWidth;
   margin: 0 auto;
 }
 
 .container {
-  width: $containerWidth;
+  max-width: $containerWidth;
   margin: 0 auto;
 }
