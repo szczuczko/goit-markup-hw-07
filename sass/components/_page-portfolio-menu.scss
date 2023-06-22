@@ -5,6 +5,7 @@
   background-color: $almost-white;
 
   &-button-menu {
+    display: flex;
     list-style: none;
     text-align: center;
     cursor: pointer;
