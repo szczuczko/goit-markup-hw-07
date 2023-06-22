@@ -36,16 +36,6 @@
     letter-spacing: 0.06em;
     padding-inline: 24px;
 
-    &:hover,
-    & ~ p:hover,
-    .pf-menu-button:hover {
-      text-decoration: underline solid $blue;
-    }
-  }
-
-  .pf-menu-button-blue:hover {
-    text-decoration: underline solid $button-blue;
-  }
 }
 
 // Wyjeżdżający opis na img

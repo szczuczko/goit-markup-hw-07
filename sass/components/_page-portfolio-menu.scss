@@ -65,4 +65,12 @@
   &-button-4 {
     width: 121px;
   }
+
+  .pf-menu-button:hover {
+    text-decoration: underline solid $blue;
+  }
+
+  .pf-menu-button-blue:hover {
+    text-decoration: underline solid $buttonBlue;
+  }
 }
